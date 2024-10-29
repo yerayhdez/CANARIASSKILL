@@ -42,5 +42,3 @@ El direccionamiento IP se encuentra en el Anexo II: Direccionamiento.
    - El PC del competidor debe poder acceder a la página web del servidor web.
 
 ---
-
-Para más detalles, consulta los anexos I y II.
