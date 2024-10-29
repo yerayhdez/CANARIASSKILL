@@ -9,10 +9,10 @@
 ## Direccionamiento IP
 | Máquina          | Dirección IP       | Rol                    |
 |------------------|--------------------|------------------------|
-| Ubuntu Firewall  | 192.168.1.1        | Enrutador/Firewall     |
-| Windows Server   | 10.0.0.10          | Controlador de dominio |
+| Windows Server   | 10.0.0.3           | Controlador de dominio |
 | Windows Cliente  | DHCP (10.0.0.50)   | Cliente de dominio     |
-| Ubuntu Web Server| 10.0.0.20          | Servidor Web           |
+| Ubuntu Web Server| 10.0.0.2           | Servidor Web           |
+| Ubuntu DMZ       | 10.0.0.4           | DMZ                    |
 
 ## Reglas de Firewall
 - **INPUT**: Permitir tráfico HTTP hacia el servidor web; bloquear ping desde la red local.
